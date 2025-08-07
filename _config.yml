@@ -97,10 +97,10 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/whklwhkl/whklwhkl.github.io.git
-  branch: main
+# GitHub Actions handles deployment automatically
+# deploy:
+#   type: git
+#   repo: https://github.com/whklwhkl/whklwhkl.github.io.git
+#   branch: main
